@@ -1,0 +1,55 @@
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #1f2937;
+}
+
+.header {
+  overflow: hidden;
+}
+
+.header a {
+  float: left;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header .logo {
+  width: 5%;
+  height: auto;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.middle {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.coffeeimg {
+  width: 75%;
+  flex: 1;
+}
