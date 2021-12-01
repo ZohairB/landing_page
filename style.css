@@ -1,6 +1,4 @@
 body {
-  margin-left: 10%;
-  margin-right: 10%;
   background-color: #1f2937;
 }
 
@@ -46,10 +44,11 @@ h1 {
 .first {
   display: flex;
 }
-.Cimg {
-  width: 50%;
+.right {
+  flex: 1;
 }
 .left {
+  flex: 1;
   color: #f9faf8;
 }
 
