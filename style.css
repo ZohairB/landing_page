@@ -1,9 +1,12 @@
 body {
   background-color: #1f2937;
+  padding: 0 5% 0% 5%;
+  margin: 0%;
 }
 
 .header {
   overflow: hidden;
+  padding: 0 5% 0 5%;
 }
 
 .header a {
@@ -36,24 +39,37 @@ body {
   float: right;
 }
 
-h1 {
+#About {
+  display: flex;
+  padding: 6% 5%;
+  background-color: #28374c;
+}
+
+.column {
+  flex: 50%;
+  max-width: 50%;
+}
+
+.column h1 {
+  color: #f9faf8;
   font-size: 48px;
   font-weight: bolder;
 }
 
-.first {
-  display: flex;
+.column p {
+  color: #e5e7eb;
+  font-size: 18px;
 }
-.right {
-  flex: 1;
-}
-.left {
-  flex: 1;
-  color: #f9faf8;
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 20px;
 }
 
 .b1 {
-  background-color: #3b82f6;
+  background-color: #3882f6;
   border: none;
   color: white;
   padding: 10px 32px;
@@ -63,4 +79,88 @@ h1 {
   font-size: 16px;
   border-radius: 7px;
   font-size: 24px;
+}
+.b1:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#Details {
+  display: flex;
+  padding: 5% 0 0 0;
+  background-color: #ffffff;
+}
+
+.blocks {
+  flex: 25%;
+  max-width: 25%;
+  padding: 2%;
+}
+
+.blocks img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.imgtext {
+  display: flex;
+  margin-top: -30px;
+  background-color: white;
+  padding-bottom: 4%;
+}
+
+.txt {
+  flex: 25%;
+  max-width: 25%;
+  padding: 2%;
+  text-align: justify;
+}
+
+#Comments {
+  font-style: italic;
+  padding: 5%;
+  background-color: #e5e7eb;
+}
+
+#Comments .p2 {
+  text-align: right;
+}
+
+.contact {
+  padding: 0 5%;
+}
+
+.contact button {
+  float: right;
+  margin-top: 55px;
+  margin-right: 150px;
+  background-color: #ddd;
+  border: none;
+  color: #3882f6;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 7px;
+  font-size: 24px;
+  border-radius: 10px;
+}
+
+.contact button:hover {
+  background-color: #1f2937;
+  color: black;
+}
+
+.contact .contactext {
+  background-color: #3882f6;
+  border-radius: 15px;
+  margin: 5% 5% 0 5%;
+  padding: 3% 0 3% 10%;
+}
+
+footer {
+  text-align: center;
 }
