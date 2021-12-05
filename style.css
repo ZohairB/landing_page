@@ -111,6 +111,10 @@ body {
   -webkit-border-radius: 15px;
 }
 
+.blocks img:hover {
+  transform: scale(1.2);
+}
+
 .imgtext {
   display: flex;
   margin-top: -30px;
